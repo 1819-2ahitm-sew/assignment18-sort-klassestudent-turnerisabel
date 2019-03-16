@@ -4,8 +4,14 @@ public class Student implements Comparable<Student> {
 
     private String vorname;
     private String nachname;
+    private int katNr;
 
     public Student() {
+    }
+
+    @Override
+    public String toString() {
+        return nachname + " " + vorname;
     }
 
     public Student(String vorname, String nachname) {
@@ -27,6 +33,14 @@ public class Student implements Comparable<Student> {
 
     public void setNachname(String nachname) {
         this.nachname = nachname;
+    }
+
+    public int getKatNr() {
+        return katNr;
+    }
+
+    public void setKatNr(int katNr) {
+        this.katNr = katNr;
     }
 
     public int compareTo(Student o) {
