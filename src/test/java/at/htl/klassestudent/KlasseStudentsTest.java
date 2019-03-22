@@ -20,7 +20,7 @@ class StudentTest {
     }
 
     @Test
-    public void student_compareSameStudents_Succes(){
+    public void student_compareSameStudents_Succes() {
         Student maxi1 = new Student("Maxi", "Müller");
         Student maxi2 = new Student("Maxi", "Müller");
 
@@ -29,7 +29,7 @@ class StudentTest {
     }
 
     @Test
-    public void student_compareTwoStudents2_Succes(){
+    public void student_compareTwoStudents2_Succes() {
         Student susi = new Student("Susi", "Scholz");
         Student maxi2 = new Student("Maxi", "Müller");
 
