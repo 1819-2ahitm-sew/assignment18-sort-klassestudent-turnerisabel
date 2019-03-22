@@ -13,6 +13,14 @@ public class Klasse {
         this.students = students;
     }
 
+  /*  public void add(Student student){
+        // wenn noch kein Array erstellt wurde, dann wird eines angelegt
+        if (students == null){
+            students = new Student[1];
+        }
+        students[students.length -1] = student;
+    }
+*/
     public int getKlassenbezeichnung() {
         return klassenbezeichnung;
     }
@@ -54,7 +62,7 @@ public class Klasse {
                    students[j] = students[j + 1];
                    students[j + 1] = temp;
                 }
-         }
+             }
         }
     }
 }

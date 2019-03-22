@@ -11,6 +11,7 @@ public class Main {
                 new Student("Lisa", "Müller"),
                 new Student("Kathi", "Berger")
         });
+
         Klasse zweiAhitm = new Klasse(2,
                 new Student[]{
                         new Student("Michael", "Huber"),
